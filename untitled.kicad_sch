@@ -2687,7 +2687,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48d4615b-282a-4772-9bb5-ff82af753049")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 214.63 78.7399 0)
 			(effects
 				(font
@@ -2705,7 +2705,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
 			(at 217.17 80.01 90)
 			(effects
 				(font
@@ -2753,7 +2753,7 @@
 		(instances
 			(project "avr328usbc"
 				(path "/e7a067a8-1d75-4b62-a93c-d6508c6150f1/6ead66d4-fbd0-44c7-9236-cc34a95896d0"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -2769,7 +2769,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "905ec3c5-def9-4faf-ba84-429548113e31")
-		(property "Reference" "J5"
+		(property "Reference" "J4"
 			(at 147.32 54.61 0)
 			(effects
 				(font
@@ -2785,7 +2785,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x16_P2.54mm_Vertical"
 			(at 146.05 78.74 0)
 			(effects
 				(font
@@ -2911,7 +2911,7 @@
 		(instances
 			(project "avr328usbc"
 				(path "/e7a067a8-1d75-4b62-a93c-d6508c6150f1/6ead66d4-fbd0-44c7-9236-cc34a95896d0"
-					(reference "J5")
+					(reference "J4")
 					(unit 1)
 				)
 			)
