@@ -3654,6 +3654,17 @@
 		)
 		(uuid "52117f3c-e898-4eef-adba-55523bdb5e90")
 	)
+	(label "D-"
+		(at 81.28 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "543d661f-ce2e-450a-a89c-0f7d4c2c018c")
+	)
 	(label "UART_Rx"
 		(at 210.82 34.29 180)
 		(fields_autoplaced yes)
@@ -3796,6 +3807,17 @@
 			(justify right bottom)
 		)
 		(uuid "d5fa53c5-bbba-4983-bb8c-0fcfde85e333")
+	)
+	(label "D+"
+		(at 81.28 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ecc1fc5b-6be6-4517-b776-4f5c27da1f0c")
 	)
 	(global_label "GND_AVR"
 		(shape input)
@@ -4607,7 +4629,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4085"
 			(at 212.09 87.63 0)
 			(effects
 				(font
