@@ -3917,7 +3917,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42692131-4093-438c-9a8c-a664deeec889")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG03"
 			(at 204.47 113.665 0)
 			(effects
 				(font
@@ -3967,7 +3967,7 @@
 		(instances
 			(project "avr328usbc"
 				(path "/e7a067a8-1d75-4b62-a93c-d6508c6150f1"
-					(reference "#FLG04")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -4050,7 +4050,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67badca6-4119-46e6-b6fd-d1fd9d185e6b")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 208.28 72.39 0)
 			(effects
 				(font
@@ -4117,7 +4117,7 @@
 		(instances
 			(project "avr328usbc"
 				(path "/e7a067a8-1d75-4b62-a93c-d6508c6150f1"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -4133,7 +4133,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bd089f2-8a21-40ab-a2d5-5e0b0ed18c42")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 161.29 114.3 0)
 			(effects
 				(font
@@ -4203,7 +4203,7 @@
 		(instances
 			(project "avr328usbc"
 				(path "/e7a067a8-1d75-4b62-a93c-d6508c6150f1"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -4287,7 +4287,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "850557d4-c8ff-46ef-9560-7a29efbdcf1e")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG02"
 			(at 92.71 40.005 0)
 			(effects
 				(font
@@ -4337,7 +4337,7 @@
 		(instances
 			(project "avr328usbc"
 				(path "/e7a067a8-1d75-4b62-a93c-d6508c6150f1"
-					(reference "#FLG01")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -4353,7 +4353,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c449398-22e1-43fa-ab85-9fca4f098369")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 107.6041 90.17 0)
 			(effects
 				(font
@@ -4443,7 +4443,7 @@
 		(instances
 			(project "avr328usbc"
 				(path "/e7a067a8-1d75-4b62-a93c-d6508c6150f1"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -4459,7 +4459,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9aefca51-ee54-48eb-a191-e0ae03b4067e")
-		(property "Reference" "J4"
+		(property "Reference" "J2"
 			(at 97.79 111.76 0)
 			(effects
 				(font
@@ -4535,7 +4535,7 @@
 		(instances
 			(project "avr328usbc"
 				(path "/e7a067a8-1d75-4b62-a93c-d6508c6150f1"
-					(reference "J4")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -4551,7 +4551,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a76ff7f0-9289-45af-b465-a840c232fa65")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG04"
 			(at 226.06 80.645 0)
 			(effects
 				(font
@@ -4601,7 +4601,7 @@
 		(instances
 			(project "avr328usbc"
 				(path "/e7a067a8-1d75-4b62-a93c-d6508c6150f1"
-					(reference "#FLG03")
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -4889,7 +4889,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5f970a6-c0ec-4621-a49d-8dd2f43cbb11")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 161.29 63.5 0)
 			(effects
 				(font
@@ -4959,7 +4959,7 @@
 		(instances
 			(project "avr328usbc"
 				(path "/e7a067a8-1d75-4b62-a93c-d6508c6150f1"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -4975,7 +4975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5e2fb86-574d-4f75-9467-91197b271f41")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG01"
 			(at 43.18 111.125 0)
 			(effects
 				(font
@@ -5025,7 +5025,7 @@
 		(instances
 			(project "avr328usbc"
 				(path "/e7a067a8-1d75-4b62-a93c-d6508c6150f1"
-					(reference "#FLG02")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
