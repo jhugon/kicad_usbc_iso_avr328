@@ -105,7 +105,7 @@
 	(net 18 "unconnected-(J4-Pin_22-Pad22)")
 	(net 19 "/MCU Sheet/PB7")
 	(net 20 "/MCU Sheet/PB0")
-	(net 21 "unconnected-(J4-Pin_19-Pad19)")
+	(net 21 "unconnected-(J3-SBU1-PadA8)")
 	(net 22 "/MCU Sheet/PC0")
 	(net 23 "/UART_Tx")
 	(net 24 "/MCU Sheet/PB2")
@@ -115,15 +115,15 @@
 	(net 28 "unconnected-(J4-Pin_20-Pad20)")
 	(net 29 "/MCU Sheet/PD4")
 	(net 30 "/MCU Sheet/PC6 #RESET")
-	(net 31 "unconnected-(J4-Pin_23-Pad23)")
-	(net 32 "unconnected-(J4-Pin_18-Pad18)")
+	(net 31 "unconnected-(J3-D--PadB7)")
+	(net 32 "unconnected-(J3-D--PadA7)")
 	(net 33 "/MCU Sheet/PD6")
 	(net 34 "/MCU Sheet/PB6")
 	(net 35 "/MCU Sheet/PC3")
 	(net 36 "/MCU Sheet/PD2")
 	(net 37 "/MCU Sheet/PB3")
 	(net 38 "/MCU Sheet/PC2")
-	(net 39 "unconnected-(J4-Pin_21-Pad21)")
+	(net 39 "unconnected-(J3-SBU2-PadB8)")
 	(net 40 "/MCU Sheet/PC1")
 	(net 41 "/MCU Sheet/PD3")
 	(net 42 "/MCU Sheet/PB4")
@@ -140,6 +140,12 @@
 	(net 53 "unconnected-(U4-AREF-Pad21)")
 	(net 54 "/D-")
 	(net 55 "/D+")
+	(net 56 "unconnected-(J3-D+-PadB6)")
+	(net 57 "unconnected-(J3-D+-PadA6)")
+	(net 58 "unconnected-(J4-Pin_28-Pad28)")
+	(net 59 "unconnected-(J4-Pin_26-Pad26)")
+	(net 60 "unconnected-(J4-Pin_30-Pad30)")
+	(net 61 "unconnected-(J4-Pin_24-Pad24)")
 	(footprint "Package_DIP:DIP-8_W7.62mm"
 		(layer "F.Cu")
 		(uuid "0a69f2ec-c251-4357-82ad-fab922ffbdbe")
@@ -201,6 +207,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Broadcom"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "773f4e37-abee-4b2d-877b-b0f65d152618")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR Part Num" "ACPL-772L-000E"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c738a10b-a038-47c1-a0a2-78f0b30a8d66")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -534,8 +566,34 @@
 				)
 			)
 		)
+		(property "MFR" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4ef298d4-9268-495a-94d2-8beb727d18bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR Part Num" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b42a304-411f-404e-962b-318188df9d06")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
-		(path "/a7b550de-1455-4c08-81fb-cb8192ff395c")
+		(path "/0f284311-d562-4555-a8f8-9c3c32fea715")
 		(sheetname "Root")
 		(sheetfile "avr328usbc.kicad_sch")
 		(attr through_hole)
@@ -803,6 +861,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Microchip"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "84fac9dc-c485-46ab-8a62-4bba9a1a35d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR Part Num" "MCP2221A-I/P"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81b332f2-fc75-4d1f-85d9-dcc4a3fdb82c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1156,7 +1240,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_C_Receptacle_PowerOnly_6P"
+		(property "Value" "USB-C THT"
 			(at 2.975 9.925 90)
 			(layer "F.Fab")
 			(uuid "171848de-e012-492f-8af5-cc8f74c022d4")
@@ -1191,7 +1275,7 @@
 				)
 			)
 		)
-		(property "Description" "USB Power-Only 6P Type-C Receptacle connector"
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1203,8 +1287,34 @@
 				)
 			)
 		)
+		(property "MFR" "GCT"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ef7995a-734e-477c-94bf-a8ac92a1010c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR Part Num" "USB4085"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb9d0984-b2fb-457a-835b-930ffb2bab06")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "USB*C*Receptacle*")
-		(path "/67badca6-4119-46e6-b6fd-d1fd9d185e6b")
+		(path "/f4171eed-3f23-4e82-8396-0c2d89409c45")
 		(sheetname "Root")
 		(sheetfile "avr328usbc.kicad_sch")
 		(attr through_hole)
@@ -1386,6 +1496,9 @@
 			(drill 0.4)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 3 "GND_AVR")
+			(pinfunction "GND")
+			(pintype "passive")
 			(uuid "994ac9b9-9543-429e-a608-7e040277dfe7")
 		)
 		(pad "A4" thru_hole circle
@@ -1394,6 +1507,9 @@
 			(drill 0.4)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 4 "VCC_AVR")
+			(pinfunction "VBUS")
+			(pintype "passive")
 			(uuid "0ae62acf-e8e9-4486-88d8-1859a2d80422")
 		)
 		(pad "A5" thru_hole circle
@@ -1413,6 +1529,9 @@
 			(drill 0.4)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 57 "unconnected-(J3-D+-PadA6)")
+			(pinfunction "D+")
+			(pintype "bidirectional+no_connect")
 			(uuid "ac6f25b8-df35-45f1-be7c-d205c9f0cbd9")
 		)
 		(pad "A7" thru_hole circle
@@ -1421,6 +1540,9 @@
 			(drill 0.4)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 32 "unconnected-(J3-D--PadA7)")
+			(pinfunction "D-")
+			(pintype "bidirectional+no_connect")
 			(uuid "42f5d7fd-7900-4a7e-8675-94ea279e18a1")
 		)
 		(pad "A8" thru_hole circle
@@ -1429,6 +1551,9 @@
 			(drill 0.4)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 21 "unconnected-(J3-SBU1-PadA8)")
+			(pinfunction "SBU1")
+			(pintype "bidirectional+no_connect")
 			(uuid "0408ac72-5274-41db-9e96-39e4ff1bf258")
 		)
 		(pad "A9" thru_hole circle
@@ -1459,6 +1584,9 @@
 			(drill 0.4)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 3 "GND_AVR")
+			(pinfunction "GND")
+			(pintype "passive")
 			(uuid "37cceeb6-ae7b-48ca-8600-8cb43905f1ff")
 		)
 		(pad "B4" thru_hole circle
@@ -1467,6 +1595,9 @@
 			(drill 0.4)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 4 "VCC_AVR")
+			(pinfunction "VBUS")
+			(pintype "passive")
 			(uuid "39e20434-c804-4329-8fde-7560e3bbeb83")
 		)
 		(pad "B5" thru_hole circle
@@ -1486,6 +1617,9 @@
 			(drill 0.4)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 56 "unconnected-(J3-D+-PadB6)")
+			(pinfunction "D+")
+			(pintype "bidirectional+no_connect")
 			(uuid "77f991a1-f0fd-48dd-8433-b10624b61242")
 		)
 		(pad "B7" thru_hole circle
@@ -1494,6 +1628,9 @@
 			(drill 0.4)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 31 "unconnected-(J3-D--PadB7)")
+			(pinfunction "D-")
+			(pintype "bidirectional+no_connect")
 			(uuid "3037445b-04a5-43ea-8f62-c003e72cf32b")
 		)
 		(pad "B8" thru_hole circle
@@ -1502,6 +1639,9 @@
 			(drill 0.4)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 39 "unconnected-(J3-SBU2-PadB8)")
+			(pinfunction "SBU2")
+			(pintype "bidirectional+no_connect")
 			(uuid "712f8f2e-6626-4289-9550-3626f7c81a37")
 		)
 		(pad "B9" thru_hole circle
@@ -1646,8 +1786,34 @@
 				)
 			)
 		)
+		(property "MFR" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ddb3f8f9-e210-4e7f-a47c-bbdfaf459097")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR Part Num" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8869636-036d-4f7e-aca5-e7e19367f8a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
-		(path "/77afa0fe-2c78-4390-9eb1-28f03dbd53c7")
+		(path "/0d99e46e-9dd7-46c9-b959-a7df150f29b6")
 		(sheetname "Root")
 		(sheetfile "avr328usbc.kicad_sch")
 		(attr through_hole)
@@ -1861,7 +2027,7 @@
 		(descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
 		(tags "C Disc series Radial pin pitch 2.50mm  diameter 5mm width 2.5mm Capacitor")
 		(property "Reference" "C6"
-			(at 1.25 -2.5 270)
+			(at 1.25 -2.5 -90)
 			(layer "F.SilkS")
 			(uuid "f63d5fdc-0292-41a6-849a-a376d44a90c0")
 			(effects
@@ -1872,7 +2038,7 @@
 			)
 		)
 		(property "Value" "0u1"
-			(at 1.25 2.5 270)
+			(at 1.25 2.5 -90)
 			(layer "F.Fab")
 			(uuid "ac191d35-91e2-4ac5-8b27-8115b94cf84f")
 			(effects
@@ -1915,6 +2081,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "AVX"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7a6b838-977c-4a02-875d-db35381e14c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR Part Num" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2952467a-fbed-456f-8003-ab271568794c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2044,7 +2236,7 @@
 			(uuid "47901b3c-c3b0-423e-b679-95d0c8307e2f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.25 0 270)
+			(at 1.25 0 -90)
 			(layer "F.Fab")
 			(uuid "32828b64-9f4c-4145-bad8-a1171623588b")
 			(effects
@@ -2103,7 +2295,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x16_Counter_Clockwise"
+		(property "Value" "AVR Pin Header"
 			(at 1.27 40.43 0)
 			(layer "F.Fab")
 			(uuid "55dfbe44-b699-452b-bb50-16d135944ee8")
@@ -2138,7 +2330,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x16, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, double row, 02x16, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2147,6 +2339,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Amphenol"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "89b667b0-e161-4809-9cfb-9a6d4bc2d0d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR Part Num" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3cb31437-5a5c-42e0-b6ac-a2642a238491")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2353,7 +2571,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 44 "/MCU Sheet/PB1")
+			(net 27 "/UART_Rx")
 			(pinfunction "Pin_2")
 			(pintype "passive")
 			(uuid "c945e7b9-778c-409f-8aa9-35fa8bf0d946")
@@ -2364,7 +2582,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 24 "/MCU Sheet/PB2")
+			(net 44 "/MCU Sheet/PB1")
 			(pinfunction "Pin_3")
 			(pintype "passive")
 			(uuid "394a4fd4-74ec-40b5-a475-3c747a30c6c4")
@@ -2375,7 +2593,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 37 "/MCU Sheet/PB3")
+			(net 23 "/UART_Tx")
 			(pinfunction "Pin_4")
 			(pintype "passive")
 			(uuid "8afc4dd2-363e-48bb-9554-c840d2e00474")
@@ -2386,7 +2604,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 42 "/MCU Sheet/PB4")
+			(net 24 "/MCU Sheet/PB2")
 			(pinfunction "Pin_5")
 			(pintype "passive")
 			(uuid "a63745e1-11df-4bb9-9584-e791fb6f3cf2")
@@ -2397,7 +2615,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 43 "/MCU Sheet/PB5")
+			(net 36 "/MCU Sheet/PD2")
 			(pinfunction "Pin_6")
 			(pintype "passive")
 			(uuid "ab47cf77-bf8d-4495-8c53-aa7cfc3ee6b6")
@@ -2408,7 +2626,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 34 "/MCU Sheet/PB6")
+			(net 37 "/MCU Sheet/PB3")
 			(pinfunction "Pin_7")
 			(pintype "passive")
 			(uuid "6eab4ded-8a0b-4242-a9df-ac1f1b79bbe1")
@@ -2419,7 +2637,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 19 "/MCU Sheet/PB7")
+			(net 41 "/MCU Sheet/PD3")
 			(pinfunction "Pin_8")
 			(pintype "passive")
 			(uuid "12dce9ff-3a72-487f-b3df-5e732e13d269")
@@ -2430,7 +2648,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 22 "/MCU Sheet/PC0")
+			(net 42 "/MCU Sheet/PB4")
 			(pinfunction "Pin_9")
 			(pintype "passive")
 			(uuid "2a7e3a87-dc36-48ae-b9ab-a5d391d5a4f8")
@@ -2441,7 +2659,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 40 "/MCU Sheet/PC1")
+			(net 29 "/MCU Sheet/PD4")
 			(pinfunction "Pin_10")
 			(pintype "passive")
 			(uuid "9bbe3876-081c-4f1c-a70d-5c9aaa13ae2d")
@@ -2452,7 +2670,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 38 "/MCU Sheet/PC2")
+			(net 43 "/MCU Sheet/PB5")
 			(pinfunction "Pin_11")
 			(pintype "passive")
 			(uuid "907a1009-88e5-4524-b3bf-14da07e0ebba")
@@ -2463,7 +2681,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 35 "/MCU Sheet/PC3")
+			(net 45 "/MCU Sheet/PD5")
 			(pinfunction "Pin_12")
 			(pintype "passive")
 			(uuid "768aa162-ef84-46a4-8cad-91d0752c757a")
@@ -2474,7 +2692,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 26 "/MCU Sheet/PC4")
+			(net 34 "/MCU Sheet/PB6")
 			(pinfunction "Pin_13")
 			(pintype "passive")
 			(uuid "3c9f7cb7-950d-4dde-86d5-971a1864cb02")
@@ -2485,7 +2703,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 46 "/MCU Sheet/PC5")
+			(net 33 "/MCU Sheet/PD6")
 			(pinfunction "Pin_14")
 			(pintype "passive")
 			(uuid "e5a14087-df9f-4a3d-8004-55cc38759c7d")
@@ -2496,7 +2714,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 30 "/MCU Sheet/PC6 #RESET")
+			(net 19 "/MCU Sheet/PB7")
 			(pinfunction "Pin_15")
 			(pintype "passive")
 			(uuid "531b231d-84f9-40bc-87ec-3b025b6d0108")
@@ -2507,7 +2725,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 3 "GND_AVR")
+			(net 25 "/MCU Sheet/PD7")
 			(pinfunction "Pin_16")
 			(pintype "passive")
 			(uuid "6812c05b-c139-42be-986e-b428a19ca37e")
@@ -2518,7 +2736,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 4 "VCC_AVR")
+			(net 22 "/MCU Sheet/PC0")
 			(pinfunction "Pin_17")
 			(pintype "passive")
 			(uuid "340eb4f7-11c3-4119-bcb4-ff4ee5350f42")
@@ -2529,9 +2747,9 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 32 "unconnected-(J4-Pin_18-Pad18)")
+			(net 3 "GND_AVR")
 			(pinfunction "Pin_18")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(uuid "5b1a45a9-e7fc-49fe-ab33-400cdaeb1133")
 		)
 		(pad "19" thru_hole oval
@@ -2540,9 +2758,9 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 21 "unconnected-(J4-Pin_19-Pad19)")
+			(net 40 "/MCU Sheet/PC1")
 			(pinfunction "Pin_19")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(uuid "28ddef10-1d77-4671-8f5c-90a42dedcc29")
 		)
 		(pad "20" thru_hole oval
@@ -2562,9 +2780,9 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 39 "unconnected-(J4-Pin_21-Pad21)")
+			(net 38 "/MCU Sheet/PC2")
 			(pinfunction "Pin_21")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(uuid "92dc1cf3-4aae-4347-94aa-deacfa9589d4")
 		)
 		(pad "22" thru_hole oval
@@ -2584,9 +2802,9 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 31 "unconnected-(J4-Pin_23-Pad23)")
+			(net 35 "/MCU Sheet/PC3")
 			(pinfunction "Pin_23")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(uuid "53c2e207-0d39-4ee6-a641-8ea19051664d")
 		)
 		(pad "24" thru_hole oval
@@ -2595,9 +2813,9 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 3 "GND_AVR")
+			(net 61 "unconnected-(J4-Pin_24-Pad24)")
 			(pinfunction "Pin_24")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "faca0a35-b1a9-4b57-80f6-db498bb635ea")
 		)
 		(pad "25" thru_hole oval
@@ -2606,7 +2824,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 25 "/MCU Sheet/PD7")
+			(net 26 "/MCU Sheet/PC4")
 			(pinfunction "Pin_25")
 			(pintype "passive")
 			(uuid "3c56a088-b34f-4284-be88-79472dce2f22")
@@ -2617,9 +2835,9 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 33 "/MCU Sheet/PD6")
+			(net 59 "unconnected-(J4-Pin_26-Pad26)")
 			(pinfunction "Pin_26")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "5b2b7776-ec23-4e3b-952c-6c9c59a47591")
 		)
 		(pad "27" thru_hole oval
@@ -2628,7 +2846,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 45 "/MCU Sheet/PD5")
+			(net 46 "/MCU Sheet/PC5")
 			(pinfunction "Pin_27")
 			(pintype "passive")
 			(uuid "dd03df47-acb1-4cd1-a5ee-c4de90db1d3c")
@@ -2639,9 +2857,9 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 29 "/MCU Sheet/PD4")
+			(net 58 "unconnected-(J4-Pin_28-Pad28)")
 			(pinfunction "Pin_28")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "4ee853da-7a0e-42b9-9a2d-4fc5e33fa9b9")
 		)
 		(pad "29" thru_hole oval
@@ -2650,7 +2868,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 41 "/MCU Sheet/PD3")
+			(net 30 "/MCU Sheet/PC6 #RESET")
 			(pinfunction "Pin_29")
 			(pintype "passive")
 			(uuid "9defa575-064d-4168-ba3e-d0bab9914096")
@@ -2661,9 +2879,9 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 36 "/MCU Sheet/PD2")
+			(net 60 "unconnected-(J4-Pin_30-Pad30)")
 			(pinfunction "Pin_30")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "7d2a978e-e143-49ce-978d-e4fa4af8602c")
 		)
 		(pad "31" thru_hole oval
@@ -2672,7 +2890,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 23 "/UART_Tx")
+			(net 3 "GND_AVR")
 			(pinfunction "Pin_31")
 			(pintype "passive")
 			(uuid "326f1f40-29d4-4705-9289-3a1a923b7afd")
@@ -2683,7 +2901,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 27 "/UART_Rx")
+			(net 4 "VCC_AVR")
 			(pinfunction "Pin_32")
 			(pintype "passive")
 			(uuid "4c48ee8a-6214-4229-953e-5df8fa2a16cf")
@@ -2761,6 +2979,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "AVX"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "61cdecfa-64c6-4c9a-943b-dfa9d5c73dd2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR Part Num" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dfcd387f-4bd2-473d-9263-6b17965c6a9b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2993,6 +3237,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a95eaf9-1601-4f80-8b23-acf27567161b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR Part Num" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4f45cc6f-b78c-43da-bb86-b3ef719c3dd6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3265,6 +3535,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Broadcom"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "46a0fc18-9881-4a57-b2b7-7b36d1f8b19e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR Part Num" "ACPL-772L-000E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a12f51b4-bd7c-429a-a0ac-3cce99fd6d85")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3598,6 +3894,32 @@
 				)
 			)
 		)
+		(property "MFR" "AVX"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a7caa9e1-3029-48cd-bcc8-5f6c684177ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR Part Num" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "87643a9c-76f5-4b01-93d1-fcd994c37149")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/ddd0ffdb-f3dc-4818-88e2-ad21ef2e07d4")
 		(sheetname "Root")
@@ -3783,7 +4105,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_C_Receptacle"
+		(property "Value" "USB-C THT"
 			(at 2.975 9.925 90)
 			(layer "F.Fab")
 			(uuid "ffac0b44-b0ba-44f3-bec6-03bebfdb6fad")
@@ -3818,7 +4140,7 @@
 				)
 			)
 		)
-		(property "Description" "USB Full-Featured Type-C Receptacle connector"
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3827,6 +4149,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "GCT"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d41c749c-bb00-4cf6-a6bb-8750a56fb69c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR Part Num" "USB4085"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f833fa9f-7605-408d-8cff-899a7bd39b03")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4246,7 +4594,7 @@
 		(descr "Through hole straight pin header, 2x03, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x03 2.54mm double row")
 		(property "Reference" "J5"
-			(at 1.27 -2.33 270)
+			(at 1.27 -2.33 -90)
 			(layer "F.SilkS")
 			(uuid "7bcf10d1-7880-4778-8cd2-4e597e0de907")
 			(effects
@@ -4257,7 +4605,7 @@
 			)
 		)
 		(property "Value" "AVR-ISP-6"
-			(at 1.27 7.41 270)
+			(at 1.27 7.41 -90)
 			(layer "F.Fab")
 			(uuid "5259c423-1337-4e00-a475-ee17712ca5d2")
 			(effects
@@ -4300,6 +4648,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Amphenol"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b0d91177-cfbb-4fb9-b6a6-1decb389ea81")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR Part Num" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a11dd7c-1de7-4905-ad90-7b42c1366ffb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4479,7 +4853,7 @@
 			(uuid "5da38395-4915-45d7-a1f2-cc289cd7716b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 2.54 360)
+			(at 1.27 2.54 0)
 			(layer "F.Fab")
 			(uuid "65b491a7-e48a-4b10-8472-79f31b195c7e")
 			(effects
@@ -4628,6 +5002,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "AVX"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f0dbae4-3fdb-4293-9fcc-5b32f3c328a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR Part Num" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26a8125d-64bd-499a-8778-837ecfd981de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4806,7 +5206,7 @@
 		(descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
 		(tags "C Disc series Radial pin pitch 2.50mm  diameter 5mm width 2.5mm Capacitor")
 		(property "Reference" "C3"
-			(at 1.25 -2.5 270)
+			(at 1.25 -2.5 -90)
 			(layer "F.SilkS")
 			(uuid "6271ce65-c500-446f-900e-529098ba6fae")
 			(effects
@@ -4817,7 +5217,7 @@
 			)
 		)
 		(property "Value" "0u1"
-			(at 1.25 2.5 270)
+			(at 1.25 2.5 -90)
 			(layer "F.Fab")
 			(uuid "e3185c2a-475f-4e0e-bed4-664cba7c8cc1")
 			(effects
@@ -4860,6 +5260,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "AVX"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8cda7617-b2b3-45bf-8347-957d82a92c47")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR Part Num" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "87ec4d58-2059-4c66-9d12-a3ff43d3d254")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4989,7 +5415,7 @@
 			(uuid "7eaf1bfb-dedd-4613-aa6a-3e9e4539a8b3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.25 0 270)
+			(at 1.25 0 -90)
 			(layer "F.Fab")
 			(uuid "c90d6466-e580-46a0-b1db-4595af778fe4")
 			(effects
@@ -5092,6 +5518,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "87b8b1c3-0a26-4817-b5fc-2e85a712f760")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR Part Num" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f9e5f208-cf2b-4e25-8def-f04b08649821")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5367,6 +5819,32 @@
 				)
 			)
 		)
+		(property "MFR" "AVX"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab4a4ad6-6634-4f17-a8aa-2f326ecb9d95")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR Part Num" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "854e5041-7ade-4403-978d-9b23946ab3d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/491bd0c7-cc8d-4b03-8ed5-73cca21a2c8b")
 		(sheetname "Root")
@@ -5596,6 +6074,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Microchip"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4908e8ea-21e7-417e-9a39-70985b14fd17")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR Part Num" "ATmega328P-PU"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca576cdc-bb35-4bb6-82ac-0dcf2fcb384e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6150,6 +6654,32 @@
 				)
 			)
 		)
+		(property "MFR" "AVX"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4f78048-2379-4ded-9047-3718d5fc43d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR Part Num" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "412e7247-0bd5-4550-804e-d1ed6976bd52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/29303b47-d17c-4487-8a00-b603ab61306c")
 		(sheetname "Root")
@@ -6382,6 +6912,32 @@
 				)
 			)
 		)
+		(property "MFR" "AVX"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67cb2cb5-c158-4d2f-bdd8-1e1b990fcc9a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR Part Num" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e011d0b6-a136-4d0a-a4e6-98b0e405e532")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/98a34282-1fcc-492e-8179-f094af0d3925")
 		(sheetname "Root")
@@ -6557,7 +7113,7 @@
 		(descr "Through hole straight pin header, 2x05, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x05 2.54mm double row")
 		(property "Reference" "J2"
-			(at 1.27 -2.33 270)
+			(at 1.27 -2.33 -90)
 			(layer "F.SilkS")
 			(uuid "8f759990-485a-4def-b175-19c805154c4b")
 			(effects
@@ -6567,8 +7123,8 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x05_Counter_Clockwise"
-			(at 1.27 12.49 270)
+		(property "Value" "MCP Debug Header"
+			(at 1.27 12.49 -90)
 			(layer "F.Fab")
 			(uuid "22f200de-1d01-4974-812f-210d8478dd90")
 			(effects
@@ -6602,7 +7158,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x05, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6611,6 +7167,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Amphenol"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8fd54d5b-ea10-430d-890c-6ed132c7ecad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFR Part Num" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c464917-f9b3-4b4f-a3af-ade5f9bd8233")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6790,7 +7372,7 @@
 			(uuid "308cf8c1-7b37-4572-a03c-d5f3ac8ebff0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 5.08 360)
+			(at 1.27 5.08 0)
 			(layer "F.Fab")
 			(uuid "03403abd-e9a8-4968-966c-aa8f2d2931f6")
 			(effects
@@ -6817,7 +7399,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 12 "/MCP.GP0")
+			(net 1 "GND_USB")
 			(pinfunction "Pin_2")
 			(pintype "passive")
 			(uuid "332c23b2-af11-441c-a22c-8c5865e5a711")
@@ -6828,7 +7410,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 11 "/MCP.GP1")
+			(net 12 "/MCP.GP0")
 			(pinfunction "Pin_3")
 			(pintype "passive")
 			(uuid "0df892da-ffd4-4f31-a1bb-a6fc2c27be8c")
@@ -6839,7 +7421,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 14 "/MCP.GP2")
+			(net 15 "/MCP.UTx")
 			(pinfunction "Pin_4")
 			(pintype "passive")
 			(uuid "46915744-45a7-4aeb-bcc1-bf0299cc5079")
@@ -6850,7 +7432,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 9 "/MCP.GP3")
+			(net 11 "/MCP.GP1")
 			(pinfunction "Pin_5")
 			(pintype "passive")
 			(uuid "0007d13a-89bc-441f-80a0-c9728e16e61e")
@@ -6861,7 +7443,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 13 "/MCP.SDA")
+			(net 10 "/MCP.URx")
 			(pinfunction "Pin_6")
 			(pintype "passive")
 			(uuid "406dab4b-a9ae-43b0-9d83-755a22ec13ee")
@@ -6872,7 +7454,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 16 "/MCP.SCL")
+			(net 14 "/MCP.GP2")
 			(pinfunction "Pin_7")
 			(pintype "passive")
 			(uuid "9ae9fbc2-4271-48fb-b015-63cf005f669a")
@@ -6883,7 +7465,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 10 "/MCP.URx")
+			(net 16 "/MCP.SCL")
 			(pinfunction "Pin_8")
 			(pintype "passive")
 			(uuid "0b36e92b-15ca-4b4f-8c56-5a5a6bb6dd20")
@@ -6894,7 +7476,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 15 "/MCP.UTx")
+			(net 9 "/MCP.GP3")
 			(pinfunction "Pin_9")
 			(pintype "passive")
 			(uuid "975e313a-9ce5-47d5-9a3d-b2f3fbfc5ef3")
@@ -6905,7 +7487,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 1 "GND_USB")
+			(net 13 "/MCP.SDA")
 			(pinfunction "Pin_10")
 			(pintype "passive")
 			(uuid "0fbd369a-171f-4568-8eeb-1529e03eadca")
