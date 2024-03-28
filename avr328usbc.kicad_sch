@@ -3574,7 +3574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "20% or better from USB Spec"
 			(at 60.96 45.72 0)
 			(effects
 				(font
@@ -3583,7 +3583,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" ""
+		(property "MFR" "KOA Speer"
 			(at 60.96 45.72 0)
 			(effects
 				(font
@@ -3592,7 +3592,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR Part Num" ""
+		(property "MFR Part Num" " MF1/4LCT52R512J"
 			(at 60.96 45.72 0)
 			(effects
 				(font
@@ -3659,7 +3659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "20% or better from USB Spec"
 			(at 238.76 80.01 0)
 			(effects
 				(font
@@ -3668,7 +3668,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" ""
+		(property "MFR" "KOA Speer"
 			(at 238.76 80.01 0)
 			(effects
 				(font
@@ -3677,7 +3677,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR Part Num" ""
+		(property "MFR Part Num" " MF1/4LCT52R512J"
 			(at 238.76 80.01 0)
 			(effects
 				(font
@@ -3744,7 +3744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "20% or better from USB Spec"
 			(at 238.76 71.12 0)
 			(effects
 				(font
@@ -3753,7 +3753,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" ""
+		(property "MFR" "KOA Speer"
 			(at 238.76 71.12 0)
 			(effects
 				(font
@@ -3762,7 +3762,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR Part Num" ""
+		(property "MFR Part Num" " MF1/4LCT52R512J"
 			(at 238.76 71.12 0)
 			(effects
 				(font
@@ -3841,7 +3841,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "AVX"
+		(property "MFR" "TDK"
 			(at 107.95 170.18 0)
 			(effects
 				(font
@@ -3850,7 +3850,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR Part Num" ""
+		(property "MFR Part Num" "FG18X7R1H104KNT00"
 			(at 107.95 170.18 0)
 			(effects
 				(font
@@ -3929,7 +3929,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "AVX"
+		(property "MFR" "TDK"
 			(at 93.98 170.18 0)
 			(effects
 				(font
@@ -3938,7 +3938,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR Part Num" ""
+		(property "MFR Part Num" "FG14X7R1A106KRT00"
 			(at 93.98 170.18 0)
 			(effects
 				(font
@@ -4017,7 +4017,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "AVX"
+		(property "MFR" "TDK"
 			(at 134.62 170.18 0)
 			(effects
 				(font
@@ -4026,7 +4026,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR Part Num" ""
+		(property "MFR Part Num" "FG18X7R1H104KNT00"
 			(at 134.62 170.18 0)
 			(effects
 				(font
@@ -4399,7 +4399,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "AVX"
+		(property "MFR" "TDK"
 			(at 52.07 170.18 0)
 			(effects
 				(font
@@ -4408,7 +4408,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR Part Num" ""
+		(property "MFR Part Num" "FG18X7R1H104KNT00"
 			(at 52.07 170.18 0)
 			(effects
 				(font
@@ -4487,7 +4487,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "AVX"
+		(property "MFR" "TDK"
 			(at 64.77 170.18 0)
 			(effects
 				(font
@@ -4496,7 +4496,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR Part Num" ""
+		(property "MFR Part Num" "FG18X7R1H104KNT00"
 			(at 64.77 170.18 0)
 			(effects
 				(font
@@ -4817,7 +4817,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "AVX"
+		(property "MFR" "TDK"
 			(at 24.13 170.18 0)
 			(effects
 				(font
@@ -4826,7 +4826,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR Part Num" ""
+		(property "MFR Part Num" "FG14X7R1A106KRT00"
 			(at 24.13 170.18 0)
 			(effects
 				(font
@@ -5140,7 +5140,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "AVX"
+		(property "MFR" "TDK"
 			(at 121.92 170.18 0)
 			(effects
 				(font
@@ -5149,7 +5149,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR Part Num" ""
+		(property "MFR Part Num" "FG18X7R1H104KNT00"
 			(at 121.92 170.18 0)
 			(effects
 				(font
@@ -5425,7 +5425,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "AVX"
+		(property "MFR" "TDK"
 			(at 38.1 170.18 0)
 			(effects
 				(font
@@ -5434,7 +5434,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR Part Num" ""
+		(property "MFR Part Num" "FG18X7R1H104KNT00"
 			(at 38.1 170.18 0)
 			(effects
 				(font
@@ -5501,7 +5501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "20% or better from USB Spec"
 			(at 60.96 54.61 0)
 			(effects
 				(font
@@ -5510,7 +5510,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" ""
+		(property "MFR" "KOA Speer"
 			(at 60.96 54.61 0)
 			(effects
 				(font
@@ -5519,7 +5519,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR Part Num" ""
+		(property "MFR Part Num" " MF1/4LCT52R512J"
 			(at 60.96 54.61 0)
 			(effects
 				(font
