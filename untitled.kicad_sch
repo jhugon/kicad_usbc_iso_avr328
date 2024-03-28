@@ -1352,7 +1352,7 @@
 		(uuid "258a858c-02b3-4f41-862b-949e4acf148f")
 	)
 	(no_connect
-		(at 246.38 67.31)
+		(at 218.44 77.47)
 		(uuid "47126870-e743-4284-8bad-de3f1ca70476")
 	)
 	(wire
@@ -1397,7 +1397,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 68.58) (xy 246.38 68.58)
+			(xy 212.09 78.74) (xy 218.44 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1417,7 +1417,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 68.58) (xy 246.38 69.85)
+			(xy 218.44 78.74) (xy 218.44 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1511,7 +1511,7 @@
 		(uuid "1b1698ef-2c42-4475-b7bd-1fd6b646abce")
 	)
 	(label "PB5"
-		(at 246.38 72.39 180)
+		(at 218.44 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1555,7 +1555,7 @@
 		(uuid "3bacbaa4-d617-462e-9d48-17e1ea926e8b")
 	)
 	(label "PB2"
-		(at 246.38 80.01 180)
+		(at 218.44 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1566,7 +1566,7 @@
 		(uuid "3bbd2608-be30-4e87-a425-7b4047b80364")
 	)
 	(label "PC5"
-		(at 246.38 49.53 180)
+		(at 218.44 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1621,7 +1621,7 @@
 		(uuid "4efbfd32-64f9-4dc0-9db1-de381e6ae4ae")
 	)
 	(label "PB4"
-		(at 246.38 74.93 180)
+		(at 218.44 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1632,7 +1632,7 @@
 		(uuid "576a316b-d0c3-4c6a-a751-c4979aa00d0e")
 	)
 	(label "PC1"
-		(at 246.38 59.69 180)
+		(at 218.44 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1654,7 +1654,7 @@
 		(uuid "64c6b8e2-de87-4f97-ac9a-d38f1a010659")
 	)
 	(label "PB3"
-		(at 246.38 77.47 180)
+		(at 218.44 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1687,7 +1687,7 @@
 		(uuid "7453fbff-0eb9-4dd3-acc8-344582676310")
 	)
 	(label "PC4"
-		(at 246.38 52.07 180)
+		(at 218.44 62.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1753,7 +1753,7 @@
 		(uuid "8447c541-ec45-4fe8-88b8-1eb593f435fa")
 	)
 	(label "PC0"
-		(at 246.38 62.23 180)
+		(at 218.44 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1907,7 +1907,7 @@
 		(uuid "c671fd6d-99a9-4e46-b829-86d22dc1b0f5")
 	)
 	(label "PB1"
-		(at 246.38 82.55 180)
+		(at 218.44 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1951,7 +1951,7 @@
 		(uuid "db2b87c6-ffe2-4a78-991e-dfbc1f99ca80")
 	)
 	(label "PC3"
-		(at 246.38 54.61 180)
+		(at 218.44 64.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1973,7 +1973,7 @@
 		(uuid "dd1f936b-c1b3-437c-bea3-465947f52c6e")
 	)
 	(label "PC2"
-		(at 246.38 57.15 180)
+		(at 218.44 67.31 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2117,7 +2117,7 @@
 	)
 	(global_label "VCC_AVR"
 		(shape input)
-		(at 240.03 68.58 180)
+		(at 212.09 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2127,7 +2127,7 @@
 		)
 		(uuid "96db8549-03df-4e9c-badd-8c04e45ff931")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.0014 68.58 0)
+			(at 201.0614 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2183,7 +2183,7 @@
 	)
 	(global_label "GND_AVR"
 		(shape input)
-		(at 246.38 64.77 180)
+		(at 218.44 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2193,7 +2193,7 @@
 		)
 		(uuid "f9dde2a5-65d7-4323-988c-aa4fd0374365")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.1095 64.77 0)
+			(at 207.1695 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2229,7 +2229,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x14")
-		(at 251.46 64.77 0)
+		(at 223.52 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2238,7 +2238,7 @@
 		(fields_autoplaced yes)
 		(uuid "05eca002-a353-46a0-ae6f-b14d368b0ae6")
 		(property "Reference" "J6"
-			(at 254 64.7699 0)
+			(at 226.06 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2247,7 +2247,7 @@
 			)
 		)
 		(property "Value" "Conn_01x14_MountingPin"
-			(at 254 67.3099 0)
+			(at 226.06 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2255,8 +2255,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 251.46 64.77 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical"
+			(at 223.52 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2265,7 +2265,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 64.77 0)
+			(at 223.52 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2274,7 +2274,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 251.46 64.77 0)
+			(at 223.52 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2361,7 +2361,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical"
 			(at 138.43 73.66 0)
 			(effects
 				(font
