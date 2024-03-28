@@ -1263,6 +1263,7 @@
 		)
 	)
 	(footprint "AAAA_Project_Library:USB_C_Receptacle_GCT_USB4085_Reduced_Pad_Size"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "37aedd63-d2da-4989-90bc-f7ddc19224cf")
 		(at 82.301145 66.384274 -90)
@@ -4601,6 +4602,7 @@
 		)
 	)
 	(footprint "AAAA_Project_Library:USB_C_Receptacle_GCT_USB4085_Reduced_Pad_Size"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "8249f8a3-c486-4be4-8ba8-59ed864f7bdd")
 		(at 82.303596 94.121754 -90)
@@ -7960,6 +7962,54 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "9e613f04-c34d-4cc5-b4d4-2b8797b5b193")
+	)
+	(gr_text "HugonLabs\n2024-03-28"
+		(at 107.696 75.565 0)
+		(layer "B.SilkS")
+		(uuid "29bbdec9-cde5-4f6d-acc7-6a0ed0618a0f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "USB-C Isolator ATmega328 v1.0"
+		(at 142.748 67.183 0)
+		(layer "B.SilkS")
+		(uuid "d0deca6c-d4be-460b-8af1-9113c153a8ab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "USB-C Isolator ATmega328 v1.0"
+		(at 117.221 67.31 0)
+		(layer "F.SilkS")
+		(uuid "55b73469-2586-4a37-8283-55ccfb043382")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "HugonLabs\n2024-03-28"
+		(at 91.567 80.264 0)
+		(layer "F.SilkS")
+		(uuid "6c3d8d42-48b2-4862-bb8d-50d39233d930")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
 		(start 82.303596 94.121754)
