@@ -4987,7 +4987,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4085"
+		(property "Footprint" "AAAA_Project_Library:USB_C_Receptacle_GCT_USB4085_Reduced_Pad_Size"
 			(at 34.29 55.88 0)
 			(effects
 				(font
@@ -5376,7 +5376,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4085"
+		(property "Footprint" "AAAA_Project_Library:USB_C_Receptacle_GCT_USB4085_Reduced_Pad_Size"
 			(at 209.55 81.28 0)
 			(effects
 				(font
