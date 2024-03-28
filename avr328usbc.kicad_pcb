@@ -9,7 +9,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "AVR328-USB")
-		(date "2024-03-08")
+		(date "2024-03-28")
+		(rev "1.0")
 		(company "HugonLabs")
 	)
 	(layers
@@ -7970,7 +7971,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.127)
 			)
 			(justify left bottom mirror)
 		)
@@ -7982,7 +7983,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.127)
 			)
 			(justify left bottom mirror)
 		)
@@ -7994,7 +7995,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.127)
 			)
 			(justify left bottom)
 		)
@@ -8006,7 +8007,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.127)
 			)
 			(justify left bottom)
 		)

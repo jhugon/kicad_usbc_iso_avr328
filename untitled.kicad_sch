@@ -6,7 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "AVR328-USB")
-		(date "2024-03-08")
+		(date "2024-03-28")
+		(rev "1.0")
 		(company "HugonLabs")
 		(comment 1 "This version is all through-hole and has opto-isolators on the UART lines")
 	)
