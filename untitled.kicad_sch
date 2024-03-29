@@ -2235,7 +2235,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "05eca002-a353-46a0-ae6f-b14d368b0ae6")
 		(property "Reference" "J6"
@@ -2275,6 +2275,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 223.52 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "TE Connectivity"
+			(at 223.52 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part Num" "9-146280-0"
 			(at 223.52 74.93 0)
 			(effects
 				(font
@@ -2341,7 +2359,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "46dd9b8e-86dc-43a1-a1f0-b15a10535dec")
 		(property "Reference" "J4"
@@ -2381,6 +2399,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 138.43 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "TE Connectivity"
+			(at 138.43 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part Num" "9-146280-0"
 			(at 138.43 73.66 0)
 			(effects
 				(font
@@ -2495,7 +2531,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Amphenol"
+		(property "MFR" "Molex"
 			(at 173.99 101.6 0)
 			(effects
 				(font
@@ -2504,7 +2540,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR Part Num" ""
+		(property "MFR Part Num" "TE Connectivity"
 			(at 173.99 101.6 0)
 			(effects
 				(font

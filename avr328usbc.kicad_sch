@@ -4609,7 +4609,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9aefca51-ee54-48eb-a191-e0ae03b4067e")
 		(property "Reference" "J2"
@@ -4666,7 +4666,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR Part Num" "825433-7"
+		(property "MFR Part Num" "9-146280-0"
 			(at 45.72 125.73 0)
 			(effects
 				(font
@@ -4712,7 +4712,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9fc9cb6c-fcf8-4d41-8b94-5d17c29d4aaa")
 		(property "Reference" "J7"
@@ -4769,7 +4769,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR Part Num" "825433-7"
+		(property "MFR Part Num" "9-146280-0"
 			(at 95.25 125.73 0)
 			(effects
 				(font
