@@ -2540,7 +2540,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR Part Num" "TE Connectivity"
+		(property "MFR Part Num" "90130-1206"
 			(at 173.99 101.6 0)
 			(effects
 				(font
