@@ -8,3 +8,7 @@ through-hole.
 
 Notable parts are the USB-serial converter, a MCP2221A-I/P, the isolators,
 ACPL-772L-000E, and the microcontroller, ATmega328P-PU.
+
+![Front PCB render](render_front.jpg)
+
+![Back PCB render](render_back.jpg)
